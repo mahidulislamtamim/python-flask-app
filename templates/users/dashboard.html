@@ -1,0 +1,26 @@
+{% extends "users/base.html" %}
+
+{% block content %}
+
+    <div class="content">
+        <h2>Welcome, {{ username }}</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Users</h5>
+                        <p class="card-text">1,024 Active</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Revenue</h5>
+                        <p class="card-text">$12,400 This Month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
